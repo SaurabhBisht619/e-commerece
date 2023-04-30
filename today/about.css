@@ -1,0 +1,28 @@
+.product-1{
+    display: flex;
+    margin: 4vh 2vw;
+}
+
+.product-2{
+    display: flex;
+    margin: 6vh 2vw;
+}
+
+
+p{
+    margin-left: 2vh;
+}
+
+.p2{
+    width: 50%;
+}
+
+.features{
+    display: flex;
+    height: 10vh;
+    justify-content: space-around;
+}
+
+.img1{
+    height: 10vh;
+}

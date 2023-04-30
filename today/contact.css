@@ -1,0 +1,54 @@
+.parent{
+    width: 90%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3vh;
+    margin-left: 5vw;
+    background-color: rgb(247, 240, 231);
+    box-shadow: 10px 10px 10px black;
+    border: 2px solid black;
+}
+
+.child{
+    width: 50%;
+    height: 60vh;
+    background-color: rgb(91, 231, 91);
+    justify-content: space-around;
+    border: 2px solid rgb(9, 23, 12);
+
+}
+
+.heading{
+    font-size: 50px;
+    text-align: center;
+    background-color: rgb(15, 46, 36);
+    color: aliceblue;
+    letter-spacing: 4px;
+    padding: 2vh 0vh;
+}
+
+.name{
+    width: 30vw;
+    padding: 10px 10px ;
+    border-radius: 30px;
+    margin-left: 15vh;
+    border: none;
+    margin-top: 3vh;
+    text-align: center;
+}
+
+.submit{
+    width: 20vw;
+    padding: 10px 10px ;
+    border-radius: 30px;
+    margin-left: 23vh;
+    border: none;
+    margin-top: 3vh;
+    text-align: center;
+    background-color: rgb(60, 174, 235);
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+}

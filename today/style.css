@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.topBanner{
+    width: 100%;
+    height: 25vh;
+    background-image: url('image/banner-slide/top-banner.jpg');   
+}
+
+.mainQuote{
+    font-size: 70px;
+    padding: 7vh 3vw;
+    color: green;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 2vh 0vh;
+    background-color: gray;
+    font-size: x-large;
+    color: rgb(243, 229, 229);
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+nav{
+    position: sticky;
+    top: 0px;
+}
+
+li:hover{
+    color: green;
+    background-color: rgb(52, 51, 51);
+    cursor: pointer;
+}
+
+li{
+    list-style-type: none;
+}
+
+.banner{
+    background-image: url('image/banner-slide/Banner-1.jpg');
+    width: 100%;
+    height: 75vh;
+}
+
+
+.welcome{
+    font-size: 70px;
+    padding: 5vh 20vw;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+}
+
+
+.footer{
+    background-image: url('image/footer-bg/footer_bg.png');
+    width: 100%;
+    height: 40vh;
+    margin-top: 5vh;
+}
+
+
+.table{
+    padding: 8vh 10vw;
+}
+
+td{
+    padding-right: 16vw;
+    padding-top: 5vh;
+    color: aliceblue;
+    cursor: pointer;
+}

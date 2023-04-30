@@ -1,0 +1,40 @@
+.desc{
+    margin-left: 6vh;
+    margin-bottom: 2vh;
+}
+
+.box{
+   box-shadow: 5px 5px 5px black;
+   width: 20%;
+   margin-left: 5vw;
+   margin-right: 4vw;
+   margin-top: 5vh;
+   border: 2px solid rgb(71, 69, 69);
+}
+
+.box:hover{
+    cursor: pointer;
+    scale: 1.05;
+    transition: 0.5s;
+}
+
+.boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.addBtn{
+    background-color: green;
+    text-align: center;
+    margin-left: 3vw;
+    margin-bottom: 3vh;
+    width: 10vw;
+    height: 5vh;
+    font-size: large;
+    color: whitesmoke;
+    padding: 5px 0px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
